@@ -15,6 +15,10 @@ int main(void)
         {
             decimal += hex[i] - '0';
         }
+        else
+        {
+            decimal += (hex[i] - 'a' + 10);
+        }
     }
 
     return 0;
