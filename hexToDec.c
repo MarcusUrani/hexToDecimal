@@ -8,6 +8,9 @@ int main(void)
     int i = 0;
     scanf("%s", hex);
     int hex_len = strlen(hex);
+    for (i = 0; i < hex_len; i++)
+    {
+    }
 
     return 0;
 }
