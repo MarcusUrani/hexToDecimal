@@ -11,6 +11,10 @@ int main(void)
     for (i = 0; i < hex_len; i++)
     {
         decimal *= 16;
+        if (hex[i] >= '0' && hex[i] <= '9')
+        {
+            decimal += hex[i] - '0';
+        }
     }
 
     return 0;
