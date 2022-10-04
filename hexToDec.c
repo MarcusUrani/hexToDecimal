@@ -10,6 +10,7 @@ int main(void)
     int hex_len = strlen(hex);
     for (i = 0; i < hex_len; i++)
     {
+        decimal *= 16;
     }
 
     return 0;
