@@ -20,6 +20,6 @@ int main(void)
             decimal += (hex[i] + 10);
         }
     }
-
+    printf("%u\n", decimal);
     return 0;
 }
