@@ -3,6 +3,6 @@
 
 int main(void)
 {
-
+    char hex[9];
     return 0;
 }
