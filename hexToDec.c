@@ -17,7 +17,7 @@ int main(void)
         }
         else
         {
-            decimal += (hex[i] + 10);
+            decimal += (hex[i] - 'a' + 10);
         }
     }
     printf("%u\n", decimal);
